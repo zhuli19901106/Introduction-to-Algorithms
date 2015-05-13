@@ -1,0 +1,9 @@
+f1(n) = 8 * n ^ 2
+f2(n) = 64 * n * log(n)
+Let f1(n) == f2(n)
+8 * n ^ 2 == 64 * n * log(n)
+n == 8 * log(n)
+n / log(n) == 8
+n is between 32 and 64.
+By calculation, n is about 44.
+Anyway, insertion sort is good for small datasets.

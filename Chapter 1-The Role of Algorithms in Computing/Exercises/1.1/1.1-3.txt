@@ -1,0 +1,7 @@
+I'll pick the singly linked list as an example.
+
+The singly linked list is probably the first dynamic data structure we learn in class.
+Its strengths includes dynamic space allocation, easy insertion, easy deletion.
+its weaknesses includes sequential accessing, coding complexity.
+
+Of course, the comparison is made with array.

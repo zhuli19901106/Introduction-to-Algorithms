@@ -1,0 +1,2 @@
+A problem that only the best solution will do? I think any problem will do, as long as it is as difficult as it can be, as it is still solvable. How about the problems on ICPC WF? I can solve none of them, but the champions can. They're the best solution.
+As for the approximate solution, I think space allocation in operating system is a good example. We've seen first-fit, next-fit, worst-fit, quick-fit etc. None of them are optimal, but some of them do work fine under most cases. Good enough, right?

@@ -1,0 +1,2 @@
+For example, poker.
+We need the pack of cards shuffled. So we write an algorithm to do the shuffling.

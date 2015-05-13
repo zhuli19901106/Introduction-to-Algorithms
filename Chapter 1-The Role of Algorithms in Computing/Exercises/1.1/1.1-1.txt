@@ -1,0 +1,3 @@
+Sorting: simple, a competition will judge the results by sorting the scores of the contestants. Only top rankers get the prize.
+
+Convex hull: Maybe pattern recognition will require computational geometry. Detecting a face?

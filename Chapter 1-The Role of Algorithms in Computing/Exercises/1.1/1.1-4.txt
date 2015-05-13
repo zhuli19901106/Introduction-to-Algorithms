@@ -1,0 +1,4 @@
+The shortest-path problem and TSP problem are both classic models in graph theroy.
+They both seek a path in a given graph that conforms to a certain rule.
+The difference in their constraints on the path decides that they are different problems.
+One is relatively simple, while the other is tough.

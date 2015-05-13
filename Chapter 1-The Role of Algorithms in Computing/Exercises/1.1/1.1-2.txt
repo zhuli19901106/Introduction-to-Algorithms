@@ -1,0 +1,1 @@
+Besides time complexity, there's also space complexity to take into serious examination. But nowadays space tend to be cheaper than time. It might still be imperative to save space on precious hardware.
