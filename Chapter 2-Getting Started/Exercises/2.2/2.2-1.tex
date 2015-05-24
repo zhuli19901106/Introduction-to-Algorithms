@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 2.2-1:}\\
+Let $f(n) = \frac{n ^ 3}{1000} - 100 n ^ 2 - 100 n + 3$\\
+Let $g(n) = \frac{n ^ 3}{2000}$\\
+$\because \exists M \in N^*, \forall n > M,  f(n) > g(n)\\$
+Let $h(n) = \frac{n ^ 3}{1000}$\\
+$\because \exists M \in N^*, \forall n > M,  f(n) < h(n)\\$
+$\therefore \exists M \in N^*, \forall n > M, g(n) < f(n) < h(n)\\$
+$\therefore f(n) = \Theta(n ^ 3)$\\
+\end{spacing}
+\end{document}
