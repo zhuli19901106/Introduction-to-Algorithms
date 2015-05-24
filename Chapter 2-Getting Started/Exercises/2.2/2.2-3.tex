@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\noindent
+\textbf{Exercise 2.2-3:}\\
+\noindent
+Here is my linear search in python.
+\begin{verbatim}
+def linear_search(a, key):
+    n = len(a)
+    for i in xrange(n):
+        if a[i] == key:
+            return i
+    return -1
+\end{verbatim}
+\begin{spacing}{2.0}
+\noindent
+For an array of size $N$, let $X$ be the number of searches needed for a key.\\
+$\because P\{X = i\} = \frac{1}{N}, i \in \{1, 2, \ldots, N\}$\\
+$\therefore E(X) = \sum \limits _ {i = 1} ^ {N} \frac{i}{N} = \frac {N(N + 1) / 2} {N} = \frac{N + 1}{2}$\\
+$\therefore$ The average time complexity is $\Theta(n)$\\
+$\because$ Worst case requires $N$ searches\\
+$\therefore$ It is $\Theta(n)$ as well\\
+\end{spacing}
+\end{document}
