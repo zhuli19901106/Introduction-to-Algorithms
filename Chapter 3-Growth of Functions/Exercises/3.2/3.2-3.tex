@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 3.2-3:}\\
+$
+\because By\ Stirling's\ Approximation, n! = \sqrt{2\pi n}(\frac{n}{e}) ^ n(1 + \Theta(\frac{1}{n}))\\
+\therefore lg (n!) = \frac12\lg (2\pi n) + n\lg n - n\lg e + \lg(1 + \Theta(\frac{1}{n}))\\
+\because n\lg n\ is\ of\ the\ highest\ order\\
+\therefore \lg (n!) = \Theta(n\lg n)\\
+As\ for\ n! = \omega(2 ^ n), n! = o(n ^ n)\ are\ self$-$evident.\\
+Proof\ is\ omitted.\\
+$
+\end{spacing}
+\end{document}

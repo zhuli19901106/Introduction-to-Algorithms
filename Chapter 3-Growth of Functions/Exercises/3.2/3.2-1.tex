@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 3.2-1:}\\
+$
+\because \forall n_1 < n_2, f(n_1) < f(n_2), g(n_1) < g(n_2)\\
+\therefore \forall n_1 < n_2, f(n_1) + g(n_1) < f(n_2) + g(n_2)\\
+\because \forall n_1 < n_2, g(n_1) < g(n_2)\\
+\therefore f(g(n_1)) < f(g(n_2))\\
+\therefore \forall n_1 < n_2, f(g(n_1)) < f(g(n_2))\\
+\therefore f(n) + g(n)\ and\ f(g(n))\ are\ monotonically\ increasing.\\
+If\ f(n)\ and\ g(n)\ are\ both\ non-negative.\\
+\therefore f(n_1) < f(n_2), g(n_1) < g(n_2)\\
+\therefore f(n_1)g(n_1) < f(n_2)g(n_2)\\
+\therefore f(n)g(n)\ is\ monotonically\ increasing.\\
+$
+\end{spacing}
+\end{document}
