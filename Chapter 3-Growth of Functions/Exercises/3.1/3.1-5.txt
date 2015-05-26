@@ -1,0 +1,4 @@
+Exercise 3.1-5:
+Big-Theta is by definition the combination of upper bound and lower bound.
+So, what is there to prove?
+Theta = O + Omega
