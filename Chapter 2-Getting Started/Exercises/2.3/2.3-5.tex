@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 2.3-5:}\\
+Worst case:\\
+$
+\because T(1) = 1\\
+\because \exists k \in N^*, 2^{k - 1} < n \le 2^k.\\
+\therefore T(2^k) = T(2^{k - 1}) + 1 = T(1) + k = k + 1\\
+\therefore T(2^{k - 1}) = k\\
+\because T(2^{k - 1}) < T(n) \le T(2^k)\\
+\therefore T(n) = \Theta(\lg n)
+$
+\end{spacing}
+\end{document}

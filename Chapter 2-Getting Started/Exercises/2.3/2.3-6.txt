@@ -1,0 +1,4 @@
+Exercise 2.3-6:
+By using binary search instead of linear search during insertion sort, we get the new "binary sort".
+Although you can find every position for your insertion in O(lg n) time, but shifting the elements still requires O(n) efforts.
+Thus it's still an O(n^2) algorithm.

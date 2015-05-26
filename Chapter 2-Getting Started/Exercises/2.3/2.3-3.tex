@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 2.3-3:}\\
+$
+\because T(n) =
+\begin{cases}
+\begin{aligned}
+&2\ &if&\ n = 2,\\
+&2T(n / 2) + n\ &if&\ n = 2^k, for\ k > 1
+\end{aligned}
+\end{cases}\\
+\therefore When\ n = 2, T(n) = 2\\
+\therefore When\ n = 4, T(n) = 2T(2) + 4\\
+\therefore T(n) = n\lg n, for\ n=2, 4\\
+\therefore Suppose\ for\ k \in \{1, 2, \ldots, K\}, K \in N^*, when\ n = 2 ^ k, T(n) = n\lg n = k2^k\\
+\therefore When\ k = K + 1, n = 2 ^ {K + 1}\\
+\begin{aligned}
+T(n)&= T(2 ^ {K + 1})\\
+    &= 2T(2 ^ K) + 2 ^ {K + 1}\\
+    &= 2K2 ^ K + 2 ^ {K + 1}\\
+    &= (K + 1)2^{K + 1}\\
+    &= n\lg n
+\end{aligned}\\
+\therefore It\ holds\ for\ k = K + 1\\
+\therefore T(n) = n\lg n\\
+$
+\end{spacing}
+\end{document}
