@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 3.2-8:}\\
+$
+\because k \ln k = \Theta(n)\\
+\therefore n / \ln n = \Theta(\frac{k \ln k}{\ln (k \ln k)}) = \Theta(\frac{k \ln k}{\ln k + \ln \ln k})\\
+\because \ln k + \ln \ln k = \Theta(\ln k)\\
+\therefore n / \ln n = \Theta(\frac{k \ln k}{\ln k}) = \Theta(k)\\
+\therefore k = \Theta(n / \ln n)\\
+$
+\end{spacing}
+\end{document}

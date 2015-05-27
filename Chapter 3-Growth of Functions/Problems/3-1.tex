@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 3-1:}\\
+$
+a.\ Answer:\\
+\because \forall c > 0, \exists n_0 \in N^*, s.t.\ \forall n > n_0, 0 \le p(n) \le cn^k\\
+\therefore p(n) = O(n^k)\\
+b.\ Answer:\\
+\because \forall c > 0, \exists n_0 \in N^*, s.t.\ \forall n > n_0, 0 \le cn^k \le p(n)\\
+\therefore p(n) = \Omega(n^k)\\
+c.\ Answer:\\
+\because \forall c_1, c_2 > 0, c1 < c2, \exists n_0 \in N^*, s.t.\ 
+\forall n > n_0, c_1n^k \le p(n) \le c_2n^k\\
+\therefore p(n) = \Theta(n^k)\\
+d.\ Answer:\\
+\because \forall c > 0, \exists n_0 \in N^*, s.t.\ \forall n > n_0, 0 \le p(n) < cn^k\\
+\therefore p(n) = o(n^k)\\
+e.\ Answer:\\
+\because \forall c > 0, \exists n_0 \in N^*, s.t.\ \forall n > n_0, 0 \le cn^k < p(n)\\
+\therefore p(n) = \omega(n^k)\\
+$
+\end{spacing}
+\end{document}

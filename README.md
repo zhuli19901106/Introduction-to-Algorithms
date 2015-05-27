@@ -1,2 +1,2 @@
 # Introduction-to-Algorithms
-Reading notes of CLRS
+Reading notes of CLRS, third edition.

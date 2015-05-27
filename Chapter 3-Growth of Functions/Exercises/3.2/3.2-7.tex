@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\begin{document}
+\begin{spacing}{2.0}
+\noindent
+\textbf{Exercise 3.2-7:}\\
+$
+\phi = \frac{1 + \sqrt{5}}{2}\\
+\hat{\phi} = \frac{1 - \sqrt{5}}{2}\\
+\therefore F_1 = \frac{\phi - \hat{\phi}}{\sqrt{5}} = 1\\
+\therefore F_2 = \frac{\phi ^ 2 - \hat{\phi} ^ 2}{\sqrt{5}} = 2\\
+\therefore Let's\ suppose\ F_n = \frac{\phi ^ n - \hat{\phi} ^ n}{\sqrt{5}}\\
+\therefore F_{n - 1} = \frac{\phi ^ {n - 1} - \hat{\phi} ^ {n - 1}}{\sqrt{5}}\\
+\begin{aligned}
+\therefore F_{n + 1} &= F_{n - 1} + F_n\\
+&= \frac{\phi ^ {n - 1} \cdot \frac{3 + \sqrt{5}}{2} - \hat{\phi} ^ {n - 1} \cdot \frac{3 - \sqrt{5}}{2}}{\sqrt{5}}\\
+&= \frac{\phi ^ {n + 1} - \hat{\phi} ^ {n + 1}}{\sqrt{5}}
+\end{aligned}\\
+\therefore F_{n + 1} = \frac{\phi ^ {n + 1} - \hat{\phi} ^ {n + 1}}{\sqrt{5}}\\
+\therefore The\ induction\ holds\ for\ n = N + 1\\
+\therefore F_i = \frac{\phi ^ i - \hat{\phi} ^ i}{\sqrt{5}}\\
+$
+\end{spacing}
+\end{document}
